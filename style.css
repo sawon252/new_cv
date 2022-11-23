@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #EEE;
+}
+
+.container {
+    max-width: 1000px;
+    background-color: #ccffff;
+    margin: 0 auto ; 
+    padding: 20px ;
+}
+header {
+
+}
+.pic {
+    height: 120px ;
+    width: 100px ;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    float: left;
+}
+.header-bio {
+    float: left;
+    padding: 30px;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #11999e;
+}
+
+.header-contact {
+    float: right;
+    padding: 30px;
+
+}
+.header-contact a {
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.header-contact a:hover {
+    text-decoration: underline;
+    color: tomato;
+}
+.div-clear {
+    clear: both;
+}
+hr {
+    border: 3px solid #11999e;
+    margin: 20px auto;
+    width: 100%;
+    border-bottom: none;
+}
+.left-div {
+    width: 30%;
+    float: left;
+}
+.right-div {
+    width: 70% ;
+    float: left;
+}
+.common-hr {
+    border: 1px solid #11999e;
+    margin: 20px auto;
+    width: 100%;
+    border-bottom: none;
+}
+.education-templete-left {
+    width: 50%;
+    float: left;
+}
+.education-temtlete-right {
+    width: 50%;
+    float: left;
+}
+.bottom-container {
+    max-width: 1000px;
+    background-color: #11999e;
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+.bottom-container a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 20px;
+    margin: auto;
+    
+}
+.bottom-container p {
+    color: aliceblue;
+    padding: 20px;
+    margin: auto;
+    
+}
